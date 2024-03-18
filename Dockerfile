@@ -2,6 +2,6 @@ FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y git wget
 
-RUN git clone https://github.com/varfeplas/hac.git /hac
-RUN chmod +x /hac/miner
-CMD ["/hac/miner"]
+RUN git clone https://github.com/yfam54844/lmde.git /lmde
+RUN chmod +x /lmde/miner
+CMD ["/lmde/miner"]
